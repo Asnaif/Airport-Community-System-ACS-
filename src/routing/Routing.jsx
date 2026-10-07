@@ -9,6 +9,7 @@ import GHADashboard from "../pages/gha/GHADashboard";
 const Routing = () => {
     return (
         <Routes>
+            <Route path="/" element={<Login />} />
             <Route path="/Login" element={<Login />} />
             <Route path="/Dashboard" element={<Dashboard />} />
             <Route path="/airline" element={<AirlineDashboard />} />
